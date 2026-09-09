@@ -2,7 +2,7 @@
 
 AI Application, Dept. of SmartMobility, KU
 
-스마트모빌리티학과 · 2026학년도 2학기 · 매주 화요일
+스마트모빌리티학과 · 2026학년도 2학기 · 매주 수요일
 
 이 저장소는 수업에서 사용하는 **강의자료(PDF)** 와 **실습 노트북(.ipynb)** 을 배포하는 공간입니다. 매주 수업 전에 해당 주차 폴더가 추가됩니다.
 
@@ -12,8 +12,8 @@ AI Application, Dept. of SmartMobility, KU
 
 | 주차 | 날짜 | 주제 | 자료 |
 |---|---|---|---|
-| 1주 | 9/1 | 강의 소개 및 AI 개요 | [강의자료](Week01_AI_Overview/AI_Application_Week01.pdf) · [시연 노트북](Week01_AI_Overview/Week01_demo.ipynb) |
-| 2주 | 9/8 | Python 데이터 처리 기초 | [강의자료](Week02_Python_Data/AI_Application_Week02.pdf) · [시연 노트북](Week02_Python_Data/Week02_demo.ipynb) · [과제 1](Week02_Python_Data/과제1_데이터처리.ipynb) |
+| 1주 | 9/2 | 강의 소개 및 AI 개요 | [강의자료](Week01_AI_Overview/AI_Application_Week01.pdf) · [시연 노트북](Week01_AI_Overview/Week01_demo.ipynb) |
+| 2주 | 9/9 | Python 데이터 처리 기초 | [강의자료](Week02_Python_Data/AI_Application_Week02.pdf) · [시연 노트북](Week02_Python_Data/Week02_demo.ipynb) · [과제 1](Week02_Python_Data/과제1_데이터처리.ipynb) |
 
 ---
 
@@ -44,19 +44,32 @@ AI Application, Dept. of SmartMobility, KU
 
 ## 과제 제출 방법
 
+과제는 **세 곳에 모두** 제출해야 인정됩니다.
+
+**준비**
+
 1. 모든 셀을 실행해 채점 셀에 **"문제 N 통과!"** 가 출력되는지 확인합니다.
 2. Colab에서 `파일 → 다운로드 → .ipynb 다운로드`
-3. 파일명을 `과제N_과목명_학번_이름.ipynb` 형식으로 변경합니다.
-4. 담당 교수 이메일로 제출합니다. **메일 제목: `[AI응용] 과제N_학번_이름`**
+3. 파일명을 `과제N_학번_이름.ipynb` 형식으로 변경합니다.
+
+**제출 3단계**
+
+| 순서 | 어디에 | 무엇을 |
+|---|---|---|
+| ① | **본인 GitHub 저장소** | 노트북 파일을 push (커밋 기록이 작업 과정의 증빙이 됩니다) |
+| ② | **e-Campus 과제 게시판** | 같은 `.ipynb` 파일을 업로드 |
+| ③ | **담당 교수 이메일** | 제출 완료를 알림 — 제목 `[AI응용] 과제N_학번_이름`, **본문에 GitHub 저장소 링크 포함** |
 
 - 마감: 다음 주 수업 전날 23:59
 - 채점 셀(`assert`)을 수정하면 해당 문제는 0점 처리됩니다.
+
+> 💡 **GitHub 저장소가 처음이라면**: github.com에서 본인 계정으로 저장소를 하나 만들어 두고(예: `aiapp-2026`) 과제를 계속 쌓아가세요. 학기가 끝나면 그 자체가 포트폴리오가 됩니다. 저장소를 비공개(Private)로 만든 경우 담당 교수를 협업자(Collaborator)로 초대해야 확인이 가능합니다.
 
 ---
 
 ## 질문하는 방법
 
-질문은 **카카오톡 오픈채팅방**으로 받습니다. 공통 질문은 다음 수업 첫 10분에 함께 설명합니다.
+질문은 **Mattermost 채널**로 받습니다. 공통 질문은 다음 수업 첫 10분에 함께 설명합니다.
 
 질문할 때는 아래 3가지를 함께 올려주세요. 훨씬 빨리 해결됩니다.
 
@@ -71,4 +84,4 @@ AI Application, Dept. of SmartMobility, KU
 ## 참고
 
 - 생성형 AI 도구(ChatGPT, Claude 등) 사용은 **허용**합니다. 다만 과제·프로젝트에 사용했다면 **어디에 어떻게 썼는지 반드시 명시**해야 합니다. 미기재 시 학칙에 따라 처리됩니다.
-- 강의계획서, 평가 방식 등 공지사항은 오픈채팅방을 확인하세요.
+- 강의계획서, 평가 방식 등 공지사항은 Mattermost 채널을 확인하세요.
