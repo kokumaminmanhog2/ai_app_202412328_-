@@ -1,0 +1,52 @@
+{
+ "rounds": [
+  {
+   "round": "v1",
+   "frames": 2848,
+   "coverage": 0.41,
+   "pub_1.0x": 86.7,
+   "pub_1.0x_comp": 1.0,
+   "pub_1.2x": 69.9,
+   "pub_1.2x_comp": 1.0,
+   "hid_1.0x": 87.0,
+   "hid_1.0x_comp": 1.0,
+   "hid_1.2x": 63.2,
+   "hid_1.2x_comp": 1.0,
+   "sec": 0
+  },
+  {
+   "round": "D1",
+   "frames": 3479,
+   "coverage": 0.94,
+   "pub_1.0x": 89.3,
+   "pub_1.0x_comp": 1.0,
+   "pub_1.2x": 9.7,
+   "pub_1.2x_comp": 0.21,
+   "hid_1.0x": 89.3,
+   "hid_1.0x_comp": 1.0,
+   "hid_1.2x": 40.4,
+   "hid_1.2x_comp": 0.6,
+   "sec": 91
+  },
+  {
+   "round": "D2",
+   "frames": 4402,
+   "coverage": 0.82,
+   "pub_1.0x": 88.8,
+   "pub_1.0x_comp": 1.0,
+   "pub_1.2x": 9.4,
+   "pub_1.2x_comp": 0.2,
+   "hid_1.0x": 89.0,
+   "hid_1.0x_comp": 1.0,
+   "hid_1.2x": 9.9,
+   "hid_1.2x_comp": 0.21,
+   "sec": 89
+  }
+ ],
+ "best_round": "v1",
+ "paired_v2_minus_v1": [
+  -60.40772716791437,
+  -56.30968048956988,
+  -50.83483887227648
+ ]
+}
