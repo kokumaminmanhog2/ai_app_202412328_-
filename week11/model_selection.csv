@@ -1,0 +1,4 @@
+model,params,latency_ms,onnx_kb,L1,L3,L2,onnx
+PilotNet v2,252219,0.75,988,86.7,25.5,17.3,outputs\week11\PilotNet_v2.onnx
+PilotNet + 랜덤화,252219,0.75,988,87.4,35.3,10.6,outputs\week11\PilotNet__랜덤화.onnx
+PilotNet + 세그 보조,246749,0.71,966,86.7,24.1,10.6,outputs\week11\PilotNet__세그_보조.onnx
