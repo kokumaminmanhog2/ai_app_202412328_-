@@ -1,0 +1,10 @@
+{
+ "levels": {
+  "L1": 87.4,
+  "L2": 10.6,
+  "L3": 35.3,
+  "L4": 24.3,
+  "L5": 24.2
+ },
+ "policy": "outputs\\week11\\my_policy_v3.onnx"
+}
